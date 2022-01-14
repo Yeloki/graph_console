@@ -13,8 +13,8 @@ double f(double x) {
   return cos(x);
 }
 
-int g_zoom = 8;
-double g_x_start = -50.0 / 8; // start and end of coord system
+int g_zoom = 8; // step (1 step = 1 / zoom)
+double g_x_start = -50.0 / 8; // start of coord system
 int g_height = 41; // can be modified
 int g_width = 101; // std graph size (not modified)
 
